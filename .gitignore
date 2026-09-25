@@ -1,0 +1,24 @@
+# --- ghsave defaults (keep secrets & build output out of GitHub) ---
+build/
+gen/
+bin/
+obj/
+out/
+.gradle/
+node_modules/
+__pycache__/
+*.apk
+*.aab
+*.idsig
+*.dex
+*.keystore
+*.jks
+*.p12
+*.pem
+*.key
+.env
+.env.*
+local.properties
+*.log
+.DS_Store
+# --- end ghsave defaults ---
